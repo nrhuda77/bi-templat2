@@ -22,12 +22,31 @@
         <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
         <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
 
-
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" />
+        <link href="https://db.onlinewebfonts.com/c/d37f8830937af43036562817215a117b?family=Plovdiv+Display" rel="stylesheet">
         <!-- Customized Bootstrap Stylesheet -->
         <link href="css/bootstrap.min.css" rel="stylesheet">
 
         <!-- Template Stylesheet -->
         <link href="css/style.css" rel="stylesheet">
+
+        <style>
+            #lg, #lg2  {
+     font-family: "Plovdiv Display";
+     font-weight: 900;
+     text-transform: lowercase;
+     font-size: 45px;
+ }
+ 
+          #lg3, #lg4  {
+     font-family: "Plovdiv Display";
+     font-weight: 900;
+     text-transform: lowercase;
+  
+ }
+ 
+ 
+         </style>
     </head>
 
     <body>
@@ -46,7 +65,7 @@
         <div class="container-fluid position-relative p-0">
             <nav class="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0">
                 <a href="" class="navbar-brand p-0">
-                    <h1 class="text-primary"><i class="fas fa-search-dollar me-3"></i> <span style="color: #f26522 !important;">Bakoel </span><Span style="color: #f89920;">Ide</Span></span></h1>
+                    <h1 id="lg" class="text-primary" style="color: #f26522 !important;">bakoel <Span id="lg2" style="color: #f89920;">Ide</Span></h1>
                     <!-- <img src="img/logo.png" alt="Logo"> -->
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
@@ -54,26 +73,14 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarCollapse">
                     <div class="navbar-nav ms-auto py-0">
-                        <a href="index.html" class="nav-item nav-link">Home</a>
-                        <a href="about.html" class="nav-item nav-link">About</a>
-                        <a href="service.html" class="nav-item nav-link active">Services</a>
-                        <a href="blog.html" class="nav-item nav-link">Blogs</a>
-                        <div class="nav-item dropdown">
-                            <a href="#" class="nav-link" data-bs-toggle="dropdown">
-                                <span class="dropdown-toggle">Pages</span>
-                            </a>
-                            <div class="dropdown-menu m-0">
-                                <a href="feature.html" class="dropdown-item">Our Features</a>
-                                <a href="team.html" class="dropdown-item">Our team</a>
-                                <a href="testimonial.html" class="dropdown-item">Testimonial</a>
-                                <a href="offer.html" class="dropdown-item">Our offer</a>
-                                <a href="FAQ.html" class="dropdown-item">FAQs</a>
-                                <a href="404.html" class="dropdown-item">404 Page</a>
-                            </div>
-                        </div>
-                        <a href="contact.html" class="nav-item nav-link">Contact Us</a>
+                        <a href="index.html" class="nav-item nav-link me-5">Home</a>
+                        <a href="about.html" class="nav-item nav-link active me-5">About</a>
+                        <a href="service.html" class="nav-item nav-link me-5">Services</a>
+                        <!-- <a href="blog.html" class="nav-item nav-link">Blogs</a> -->
+                       
+                        <a href="contact.html" class="nav-item nav-link me-5">Contact Us</a>
                     </div>
-                    <a href="#" class="btn btn-primary rounded-pill py-2 px-4 my-3 my-lg-0 flex-shrink-0">Get Started</a>
+                  
                 </div>
             </nav>
 
@@ -95,11 +102,11 @@
 
         <!-- Services Start -->
         <div class="container-fluid service py-5">
-            <div class="container py-5">
+            <div class="container pb-5">
                 <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
-                    <h4 class="text-primary">Our Services</h4>
-                    <h1 class="display-5 mb-4">We Services provided best offer</h1>
-                    <p class="mb-0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur adipisci facilis cupiditate recusandae aperiam temporibus corporis itaque quis facere, numquam, ad culpa deserunt sint dolorem autem obcaecati, ipsam mollitia hic.
+                   
+                    <h1 class="display-8 mb-4 mt-5">Our Services</h1>
+                    <!-- <p class="mb-0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur adipisci facilis cupiditate recusandae aperiam temporibus corporis itaque quis facere, numquam, ad culpa deserunt sint dolorem autem obcaecati, ipsam mollitia hic. -->
                     </p>
                 </div>
                 <div class="row g-4">
@@ -109,10 +116,8 @@
                                 <img src="img/service-1.jpg" class="img-fluid rounded-top w-100" alt="Image">
                             </div>
                             <div class="rounded-bottom p-4">
-                                <a href="#" class="h4 d-inline-block mb-4"> Strategy Consulting</a>
-                                <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, sint? Excepturi facilis neque nesciunt similique officiis veritatis,
-                                </p>
-                                <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Learn More</a>
+                                <a href="#" class="h5 d-inline-block mb-4">  Kami membuat digital BRANDS yang menarik.</a>
+                                
                             </div>
                         </div>
                     </div>
@@ -122,10 +127,8 @@
                                 <img src="img/service-2.jpg" class="img-fluid rounded-top w-100" alt="Image">
                             </div>
                             <div class="rounded-bottom p-4">
-                                <a href="#" class="h4 d-inline-block mb-4">Financial Advisory</a>
-                                <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, sint? Excepturi facilis neque nesciunt similique officiis veritatis,
-                                </p>
-                                <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Learn More</a>
+                                <a href="#" class="h5 d-inline-block mb-4">Kami membuat komprehensif digital KAMPANYE yang menguntungkan</a>
+                               
                             </div>
                         </div>
                     </div>
@@ -135,10 +138,8 @@
                                 <img src="img/service-3.jpg" class="img-fluid rounded-top w-100" alt="Image">
                             </div>
                             <div class="rounded-bottom p-4">
-                                <a href="#" class="h4 d-inline-block mb-4">Managements</a>
-                                <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, sint? Excepturi facilis neque nesciunt similique officiis veritatis,
-                                </p>
-                                <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Learn More</a>
+                                <a href="#" class="h4 d-inline-block mb-4">Kami membuat digital PLATFORMS yang mengonversi.</a>
+                               
                             </div>
                         </div>
                     </div>
@@ -148,39 +149,12 @@
                                 <img src="img/service-4.jpg" class="img-fluid rounded-top w-100" alt="Image">
                             </div>
                             <div class="rounded-bottom p-4">
-                                <a href="#" class="h4 d-inline-block mb-4">Supply Optimization</a>
-                                <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, sint? Excepturi facilis neque nesciunt similique officiis veritatis,
-                                </p>
-                                <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Learn More</a>
+                                <a href="#" class="h4 d-inline-block mb-4">Kami membuat digital DESAIN yang menginspirasi. </a>
+                            
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.4s">
-                        <div class="service-item">
-                            <div class="service-img">
-                                <img src="img/service-5.jpg" class="img-fluid rounded-top w-100" alt="Image">
-                            </div>
-                            <div class="rounded-bottom p-4">
-                                <a href="#" class="h4 d-inline-block mb-4">Hr Consulting</a>
-                                <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, sint? Excepturi facilis neque nesciunt similique officiis veritatis,
-                                </p>
-                                <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Learn More</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.6s">
-                        <div class="service-item">
-                            <div class="service-img">
-                                <img src="img/service-6.jpg" class="img-fluid rounded-top w-100" alt="Image">
-                            </div>
-                            <div class="rounded-bottom p-4">
-                                <a href="#" class="h4 d-inline-block mb-4">Marketing Consulting</a>
-                                <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, sint? Excepturi facilis neque nesciunt similique officiis veritatis,
-                                </p>
-                                <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Learn More</a>
-                            </div>
-                        </div>
-                    </div>
+                  
                 </div>
             </div>
         </div>
@@ -345,25 +319,13 @@
                     <div class="col-md-6 col-lg-6 col-xl-2">
                         <div class="footer-item">
                             <h4 class="text-white mb-4">Quick Links</h4>
+                            <a href="#"><i class="fas fa-angle-right me-2"></i> Home</a>
                             <a href="#"><i class="fas fa-angle-right me-2"></i> About Us</a>
-                            <a href="#"><i class="fas fa-angle-right me-2"></i> Feature</a>
-                            <a href="#"><i class="fas fa-angle-right me-2"></i> Attractions</a>
-                            <a href="#"><i class="fas fa-angle-right me-2"></i> Tickets</a>
-                            <a href="#"><i class="fas fa-angle-right me-2"></i> Blog</a>
+                            <a href="#"><i class="fas fa-angle-right me-2"></i> Service</a>
                             <a href="#"><i class="fas fa-angle-right me-2"></i> Contact us</a>
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-6 col-xl-3">
-                        <div class="footer-item">
-                            <h4 class="text-white mb-4">Support</h4>
-                            <a href="#"><i class="fas fa-angle-right me-2"></i> Privacy Policy</a>
-                            <a href="#"><i class="fas fa-angle-right me-2"></i> Terms & Conditions</a>
-                            <a href="#"><i class="fas fa-angle-right me-2"></i> Disclaimer</a>
-                            <a href="#"><i class="fas fa-angle-right me-2"></i> Support</a>
-                            <a href="#"><i class="fas fa-angle-right me-2"></i> FAQ</a>
-                            <a href="#"><i class="fas fa-angle-right me-2"></i> Help</a>
-                        </div>
-                    </div>
+             
                     <div class="col-md-6 col-lg-6 col-xl-3">
                         <div class="footer-item">
                             <h4 class="text-white mb-4">Contact Info</h4>

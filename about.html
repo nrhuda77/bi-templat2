@@ -12,11 +12,12 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet"> 
-
+  
         <!-- Icon Font Stylesheet -->
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"/>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
-
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" />
+        <link href="https://db.onlinewebfonts.com/c/d37f8830937af43036562817215a117b?family=Plovdiv+Display" rel="stylesheet">
         <!-- Libraries Stylesheet -->
         <link href="lib/animate/animate.min.css" rel="stylesheet">
         <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
@@ -28,6 +29,25 @@
 
         <!-- Template Stylesheet -->
         <link href="css/style.css" rel="stylesheet">
+
+             
+        <style>
+            #lg, #lg2  {
+     font-family: "Plovdiv Display";
+     font-weight: 900;
+     text-transform: lowercase;
+     font-size: 45px;
+ }
+ 
+          #lg3, #lg4  {
+     font-family: "Plovdiv Display";
+     font-weight: 900;
+     text-transform: lowercase;
+  
+ }
+ 
+ 
+         </style>
     </head>
 
     <body>
@@ -46,7 +66,7 @@
         <div class="container-fluid position-relative p-0">
             <nav class="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0">
                 <a href="" class="navbar-brand p-0">
-                    <h1 class="text-primary"><i class="fas fa-search-dollar me-3"></i> <span style="color: #f26522 !important;">Bakoel </span><Span style="color: #f89920;">Ide</Span></span></h1>
+                    <h1 id="lg" class="text-primary" style="color: #f26522 !important;">bakoel <Span id="lg2" style="color: #f89920;">Ide</Span></h1>
                     <!-- <img src="img/logo.png" alt="Logo"> -->
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
@@ -54,26 +74,14 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarCollapse">
                     <div class="navbar-nav ms-auto py-0">
-                        <a href="index.html" class="nav-item nav-link">Home</a>
-                        <a href="about.html" class="nav-item nav-link active">About</a>
-                        <a href="service.html" class="nav-item nav-link">Services</a>
-                        <a href="blog.html" class="nav-item nav-link">Blogs</a>
-                        <div class="nav-item dropdown">
-                            <a href="#" class="nav-link" data-bs-toggle="dropdown">
-                                <span class="dropdown-toggle">Pages</span>
-                            </a>
-                            <div class="dropdown-menu m-0">
-                                <a href="feature.html" class="dropdown-item">Our Features</a>
-                                <a href="team.html" class="dropdown-item">Our team</a>
-                                <a href="testimonial.html" class="dropdown-item">Testimonial</a>
-                                <a href="offer.html" class="dropdown-item">Our offer</a>
-                                <a href="FAQ.html" class="dropdown-item">FAQs</a>
-                                <a href="404.html" class="dropdown-item">404 Page</a>
-                            </div>
-                        </div>
-                        <a href="contact.html" class="nav-item nav-link">Contact Us</a>
+                        <a href="index.html" class="nav-item nav-link me-5">Home</a>
+                        <a href="about.html" class="nav-item nav-link active me-5">About</a>
+                        <a href="service.html" class="nav-item nav-link me-5">Services</a>
+                        <!-- <a href="blog.html" class="nav-item nav-link">Blogs</a> -->
+                       
+                        <a href="contact.html" class="nav-item nav-link  me-5">Contact Us</a>
                     </div>
-                    <a href="#" class="btn btn-primary rounded-pill py-2 px-4 my-3 my-lg-0 flex-shrink-0">Get Started</a>
+                   
                 </div>
             </nav>
 
@@ -94,22 +102,27 @@
 
 
         <!-- Abvout Start -->
-        <div class="container-fluid about py-5">
-            <div class="container py-5">
+        <div class="container-fluid about ">
+            <div class="container ">
                 <div class="row g-5 align-items-center">
                     <div class="col-xl-7 wow fadeInLeft" data-wow-delay="0.2s">
                         <div>
-                            <h4 class="text-primary">About Us</h4>
-                            <h1 class="display-5 mb-4">Meet our company unless miss the opportunity</h1>
+                            <h1 class="text-primary mb-3">About Us</h1>
+                            <!-- <h1 class="display-5 mb-4">Meet our company unless miss the opportunity</h1>
                             <p class="mb-4">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cum velit temporibus repudiandae ipsa, eaque perspiciatis cumque incidunt tenetur sequi reiciendis.
-                            </p>
-                            <div class="row g-4">
+                            </p> -->
+                            <div class="row mb-5">
                                 <div class="col-md-6 col-lg-6 col-xl-6">
                                     <div class="d-flex">
                                         <div><i class="fas fa-lightbulb fa-3x text-primary"></i></div>
                                         <div class="ms-4">
                                             <h4>Business Consuluting</h4>
-                                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                                            <p> digital Anda. Kami memiliki tim yang 
+                                                berpengalaman dan dinamis; analis pemasaran
+                                                 digital, grafis desain, dan programmer yang ahli
+                                                 dalam bidang pemasaran online yang 
+                                                berpengalaman baik di Indonesia maupunAsia 
+                                                Pasifik</p>
                                         </div>
                                     </div>
                                 </div>
@@ -118,11 +131,15 @@
                                         <div><i class="bi bi-bookmark-heart-fill fa-3x text-primary"></i></div>
                                         <div class="ms-4">
                                             <h4>Year Of Expertise</h4>
-                                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                                            <p> kami menawarkan solusi pemasaran digital yang 
+                                                holistik, Bekerja sama untuk memastikan
+                                                 kampanyeAnda berhasil di berbagai kanal media. 
+                                                Kami senang membantu bisnisAnda berkembang
+                                                 dan menghasilkan hasil yang terukur.</p>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-sm-6">
+                                <!-- <div class="col-sm-6">
                                     <a href="#" class="btn btn-primary rounded-pill py-3 px-5 flex-shrink-0">Discover Now</a>
                                 </div>
                                 <div class="col-sm-6">
@@ -133,10 +150,11 @@
                                             <p class="mb-0 fs-5" style="letter-spacing: 1px;">+01234567890</p>
                                         </div>
                                     </div>
-                                </div>
+                                </div> -->
                             </div>
                         </div>
                     </div>
+
                     <div class="col-xl-5 wow fadeInRight" data-wow-delay="0.2s">
                         <div class="bg-primary rounded position-relative overflow-hidden">
                             <img src="img/about-2.png" class="img-fluid rounded w-100" alt="">
@@ -152,6 +170,90 @@
                             </div>
                         </div>
                     </div>
+
+                    <div class="container-fluid offer-section pb-5">
+                        <div class="container pb-5">
+                            <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
+                     
+                                <h1 class="display-5 mt-5 mb-4">Idea Generation</h1>
+                                <!-- <p class="mb-0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur adipisci facilis cupiditate recusandae aperiam temporibus corporis itaque quis facere, numquam, ad culpa deserunt sint dolorem autem obcaecati, ipsam mollitia hic. -->
+                                <!-- </p> -->
+                            </div>
+                            <div class="row g-5 align-items-center">
+                                <div class="col-xl-5 wow fadeInLeft" data-wow-delay="0.2s">
+                                    <div class="nav nav-pills bg-light rounded p-5">
+                                        <a class="accordion-link p-4 active mb-4" data-bs-toggle="pill" href="#collapseOne">
+                                            <h5 class="mb-0">Desain Website</h5>
+                                        </a>
+                                        <a class="accordion-link p-4 mb-4" data-bs-toggle="pill" href="#collapseTwo">
+                                            <h5 class="mb-0">Desain</h5>
+                                        </a>
+                                        <a class="accordion-link p-4 mb-4" data-bs-toggle="pill" href="#collapseThree">
+                                            <h5 class="mb-0">Jasa Digital</h5>
+                                        </a>
+                                        <a class="accordion-link p-4 mb-0" data-bs-toggle="pill" href="#collapseFour">
+                                            <h5 class="mb-0">Jasa Branding</h5>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-xl-7 wow fadeInRight" data-wow-delay="0.4s">
+                                    <div class="tab-content">
+                                        <div id="collapseOne" class="tab-pane fade show p-0 active">
+                                            <div class="row g-4">
+                                                <div class="col-md-7">
+                                                    <!-- <img src="img/offer-1.jpg" class="img-fluid w-100 rounded" alt=""> -->
+                                                </div>
+                                                <div class="col-md-12">
+                                                    <h1 class="display-8 mb-4">Desain Websites, Web Development, Web Maintenance, Web Marketing</h1>
+                                                    <!-- <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis amet sequi molestiae tenetur eum mollitia, blanditiis, magnam illo magni error dolore unde perspiciatis tempore et totam corrupti dignissimos aut praesentium?
+                                                    </p> -->
+                                                    
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div id="collapseTwo" class="tab-pane fade show p-0">
+                                            <div class="row g-4">
+                                                <div class="col-md-7">
+                                                    <!-- <img src="img/offer-2.jpg" class="img-fluid w-100 rounded" alt=""> -->
+                                                </div>
+                                                <div class="col-md-12">
+                                                    <h1 class="display-8 mb-4">Desain Websites, Desain Grafis, Visual Brand, Guidelines</h1>
+                                                
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div id="collapseThree" class="tab-pane fade show p-0">
+                                            <div class="row g-4">
+                                                <div class="col-md-7">
+                                                    <!-- <img src="img/offer-3.jpg" class="img-fluid w-100 rounded" alt=""> -->
+                                                </div>
+                                                <!-- <div class="col-md-5"> -->
+                                                    <div class="col-md-12">
+                                                    <h1 class="display-8 mb-4">Search Engine Ads, Sosial Media Ads, SEO, Sosial Media,Copywriting</h1>
+                                                    <!-- <p class="mb-4">
+                                                    </p> -->
+                                                
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div id="collapseFour" class="tab-pane fade show p-0">
+                                            <div class="row g-4">
+                                                <div class="col-md-7">
+                                                    <!-- <img src="img/offer-4.jpg" class="img-fluid w-100 rounded" alt=""> -->
+                                                </div>
+                                                <div class="col-md-12">
+                                                    <h1 class="display-8 mb-4">Manajemen Brand, Strategi Komunikasi, Perencanaan Media, Implementasi, Branding, Strategi Bisnis</h1>
+                                                    <!-- <p class="mb-4">
+                                                    </p> -->
+                                                 
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -161,19 +263,18 @@
         <div class="container-fluid feature pb-5">
             <div class="container pb-5">
                 <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
-                    <h4 class="text-primary">Our Features</h4>
-                    <h1 class="display-5 mb-4">Connecting businesses, ideas, and people for greater impact.</h1>
-                    <p class="mb-0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur adipisci facilis cupiditate recusandae aperiam temporibus corporis itaque quis facere, numquam, ad culpa deserunt sint dolorem autem obcaecati, ipsam mollitia hic.
+                    <h1 class="display-8 mb-4">Our Idea</h1>
+                   
                     </p>
                 </div>
                 <div class="row g-4">
                     <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.2s">
                         <div class="feature-item p-4">
                             <div class="feature-icon p-4 mb-4">
-                                <i class="fas fa-chart-line fa-4x text-primary"></i>
+                                <i class="fa-solid fa-circle-info fa-4x text-primary"></i>
                             </div>
-                            <h4>Global Management</h4>
-                            <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea hic laborum odit pariatur...
+                            <h4>Information</h4>
+                            <p class="mb-4">we have an intelligent research platform that can provide real-time information and data to against the competition
                             </p>
                             <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Learn More</a>
                         </div>
@@ -181,10 +282,10 @@
                     <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.4s">
                         <div class="feature-item p-4">
                             <div class="feature-icon p-4 mb-4">
-                                <i class="fas fa-university fa-4x text-primary"></i>
+                                <i class="fa-solid fa-hand-sparkles fa-4x text-primary"></i>
                             </div>
-                            <h4>Corporate Banking</h4>
-                            <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea hic laborum odit pariatur...
+                            <h4>Result</h4>
+                            <p class="mb-4">after we do all that things, we can see the result and do the first step for the next step
                             </p>
                             <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Learn More</a>
                         </div>
@@ -192,125 +293,72 @@
                     <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.6s">
                         <div class="feature-item p-4">
                             <div class="feature-icon p-4 mb-4">
-                                <i class="fas fa-file-alt fa-4x text-primary"></i>
+                                <i class="fa-regular fa-lightbulb fa-4x text-primary"></i>
                             </div>
-                            <h4>Asset Management</h4>
-                            <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea hic laborum odit pariatur...
+                            <h4>Idea</h4>
+                            <p class="mb-4">according to information and insight that we get, we can create the idea for our plan
                             </p>
                             <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Learn More</a>
                         </div>
                     </div>
+                    
                     <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.8s">
                         <div class="feature-item p-4">
                             <div class="feature-icon p-4 mb-4">
-                                <i class="fas fa-hand-holding-usd fa-4x text-primary"></i>
+                                <i class="fa-solid fa-code-branch fa-4x text-primary"></i>
                             </div>
-                            <h4>Investment Bank</h4>
-                            <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea hic laborum odit pariatur...
+                            <h4>Plan</h4>
+                            <p class="mb-4">how we are going to execute the idea and get ready for the creative and adaptive process
                             </p>
                             <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Learn More</a>
                         </div>
                     </div>
+
+                    <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.8s">
+                        <div class="feature-item p-4">
+                            <div class="feature-icon p-4 mb-4">
+                                <i class="fa-solid fa-briefcase fa-4x text-primary"></i>
+                            </div>
+                            <h4>Execution</h4>
+                            <p class="mb-4">Follow the plan, but change steps if necessary. don't get discouraged if things aren't going according to plan
+                            </p>
+                            <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Learn More</a>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.8s">
+                        <div class="feature-item p-4">
+                            <div class="feature-icon p-4 mb-4">
+                                <i class="fa-solid fa-brain fa-4x text-primary"></i>
+                            </div>
+                            <h4>Insight</h4>
+                            <p class="mb-4">we turned information into insight which can assist to make strategy
+                            </p>
+                            <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Learn More</a>
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </div>
         <!-- Features End -->
 
         <!-- Team Start -->
-        <div class="container-fluid team pb-5">
-            <div class="container pb-5">
-                <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
-                    <h4 class="text-primary">Our Team</h4>
-                    <h1 class="display-5 mb-4">Meet Our Advisers</h1>
-                    <p class="mb-0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur adipisci facilis cupiditate recusandae aperiam temporibus corporis itaque quis facere, numquam, ad culpa deserunt sint dolorem autem obcaecati, ipsam mollitia hic.
-                    </p>
-                </div>
-                <div class="row g-4">
-                    <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.2s">
-                        <div class="team-item">
-                            <div class="team-img">
-                                <img src="img/team-1.jpg" class="img-fluid" alt="">
-                            </div>
-                            <div class="team-title">
-                                <h4 class="mb-0">David James</h4>
-                                <p class="mb-0">Profession</p>
-                            </div>
-                            <div class="team-icon">
-                                <a class="btn btn-primary btn-sm-square rounded-circle me-3" href=""><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-primary btn-sm-square rounded-circle me-3" href=""><i class="fab fa-twitter"></i></a>
-                                <a class="btn btn-primary btn-sm-square rounded-circle me-3" href=""><i class="fab fa-linkedin-in"></i></a>
-                                <a class="btn btn-primary btn-sm-square rounded-circle me-0" href=""><i class="fab fa-instagram"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.4s">
-                        <div class="team-item">
-                            <div class="team-img">
-                                <img src="img/team-2.jpg" class="img-fluid" alt="">
-                            </div>
-                            <div class="team-title">
-                                <h4 class="mb-0">David James</h4>
-                                <p class="mb-0">Profession</p>
-                            </div>
-                            <div class="team-icon">
-                                <a class="btn btn-primary btn-sm-square rounded-circle me-3" href=""><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-primary btn-sm-square rounded-circle me-3" href=""><i class="fab fa-twitter"></i></a>
-                                <a class="btn btn-primary btn-sm-square rounded-circle me-3" href=""><i class="fab fa-linkedin-in"></i></a>
-                                <a class="btn btn-primary btn-sm-square rounded-circle me-0" href=""><i class="fab fa-instagram"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.6s">
-                        <div class="team-item">
-                            <div class="team-img">
-                                <img src="img/team-3.jpg" class="img-fluid" alt="">
-                            </div>
-                            <div class="team-title">
-                                <h4 class="mb-0">David James</h4>
-                                <p class="mb-0">Profession</p>
-                            </div>
-                            <div class="team-icon">
-                                <a class="btn btn-primary btn-sm-square rounded-circle me-3" href=""><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-primary btn-sm-square rounded-circle me-3" href=""><i class="fab fa-twitter"></i></a>
-                                <a class="btn btn-primary btn-sm-square rounded-circle me-3" href=""><i class="fab fa-linkedin-in"></i></a>
-                                <a class="btn btn-primary btn-sm-square rounded-circle me-0" href=""><i class="fab fa-instagram"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.8s">
-                        <div class="team-item">
-                            <div class="team-img">
-                                <img src="img/team-4.jpg" class="img-fluid" alt="">
-                            </div>
-                            <div class="team-title">
-                                <h4 class="mb-0">David James</h4>
-                                <p class="mb-0">Profession</p>
-                            </div>
-                            <div class="team-icon">
-                                <a class="btn btn-primary btn-sm-square rounded-circle me-3" href=""><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-primary btn-sm-square rounded-circle me-3" href=""><i class="fab fa-twitter"></i></a>
-                                <a class="btn btn-primary btn-sm-square rounded-circle me-3" href=""><i class="fab fa-linkedin-in"></i></a>
-                                <a class="btn btn-primary btn-sm-square rounded-circle me-0" href=""><i class="fab fa-instagram"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+       
         <!-- Team End -->
 
         <!-- Footer Start -->
         <div class="container-fluid footer py-5 wow fadeIn" data-wow-delay="0.2s">
             <div class="container py-5 border-start-0 border-end-0" style="border: 1px solid; border-color: rgb(255, 255, 255, 0.08);">
-                <div class="row g-5">
+                <div class="row g-5 justify-content-between">
                     <div class="col-md-6 col-lg-6 col-xl-4">
                         <div class="footer-item">
                             <a href="index.html" class="p-0">
-                                <h4 class="text-white"><i class="fas fa-search-dollar me-3"></i> <span style="color: #f26522 !important;">Bakoel </span><Span style="color: #f89920;">Ide</Span></span></h4>
+                                <h4  class="text-white"> <span id="lg3" style="color: #f26522 !important;">Bakoel </span><Span id="lg3" style="color: #f89920;">Ide</Span></span></h4>
                                 <!-- <img src="img/logo.png" alt="Logo"> -->
                             </a>
                             <p class="mb-4">Dolor amet sit justo amet elitr clita ipsum elitr est.Lorem ipsum dolor sit amet, consectetur adipiscing...</p>
-                            <div class="d-flex">
+                            <!-- <div class="d-flex">
                                 <a href="#" class="bg-primary d-flex rounded align-items-center py-2 px-3 me-2">
                                     <i class="fas fa-apple-alt text-white"></i>
                                     <div class="ms-3">
@@ -325,21 +373,19 @@
                                         <h6 class="text-white">Google Play</h6>
                                     </div>
                                 </a>
-                            </div>
+                            </div> -->
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-6 col-xl-2">
                         <div class="footer-item">
                             <h4 class="text-white mb-4">Quick Links</h4>
+                            <a href="#"><i class="fas fa-angle-right me-2"></i> Home</a>
                             <a href="#"><i class="fas fa-angle-right me-2"></i> About Us</a>
-                            <a href="#"><i class="fas fa-angle-right me-2"></i> Feature</a>
-                            <a href="#"><i class="fas fa-angle-right me-2"></i> Attractions</a>
-                            <a href="#"><i class="fas fa-angle-right me-2"></i> Tickets</a>
-                            <a href="#"><i class="fas fa-angle-right me-2"></i> Blog</a>
+                            <a href="#"><i class="fas fa-angle-right me-2"></i> Service</a>
                             <a href="#"><i class="fas fa-angle-right me-2"></i> Contact us</a>
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-6 col-xl-3">
+                    <!-- <div class="col-md-6 col-lg-6 col-xl-3">
                         <div class="footer-item">
                             <h4 class="text-white mb-4">Support</h4>
                             <a href="#"><i class="fas fa-angle-right me-2"></i> Privacy Policy</a>
@@ -349,7 +395,7 @@
                             <a href="#"><i class="fas fa-angle-right me-2"></i> FAQ</a>
                             <a href="#"><i class="fas fa-angle-right me-2"></i> Help</a>
                         </div>
-                    </div>
+                    </div> -->
                     <div class="col-md-6 col-lg-6 col-xl-3">
                         <div class="footer-item">
                             <h4 class="text-white mb-4">Contact Info</h4>
@@ -372,7 +418,7 @@
                             <div class="d-flex">
                                 <a class="btn btn-primary btn-sm-square rounded-circle me-3" href="#"><i class="fab fa-facebook-f text-white"></i></a>
                                 <a class="btn btn-primary btn-sm-square rounded-circle me-3" href="#"><i class="fab fa-twitter text-white"></i></a>
-                                <a class="btn btn-primary btn-sm-square rounded-circle me-3" href="#"><i class="fab fa-instagram text-white"></i></a>
+                                <a class="btn btn-primary btn-sm-square rounded-circle me-3" href="https://www.instagram.com/bakoelide.id?igsh=MTF5Y3E4NDYwMG53OQ=="><i class="fab fa-instagram text-white"></i></a>
                                 <a class="btn btn-primary btn-sm-square rounded-circle me-0" href="#"><i class="fab fa-linkedin-in text-white"></i></a>
                             </div>
                         </div>

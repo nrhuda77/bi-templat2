@@ -19,7 +19,7 @@
     position: fixed;
     right: 30px;
     bottom: 30px;
-    /* transition: 0.5s; */
+    transition: 0.5s;
     z-index: 99;
 }
 

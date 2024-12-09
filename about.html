@@ -49,10 +49,27 @@ body , #bkl, #bkl2, #bkl3, #bkl4, #bkl5, #bkl6 {
      font-weight: 900;
      text-transform: lowercase;
 
-     
+     @font-face {
+            font-family: 'Garet';
+            src:url('assets2/fonts/Garet-Font/Garet Regular.ttf') format('truetype');
+        }
+
+@font-face {
+            font-family: 'Clear-Sans';
+            src:url('assets2/fonts/ClearSans-Medium.ttf') format('truetype');
+        }
+
+@font-face {
+            font-family: 'Garet-Bold';
+            src:url('assets2/fonts/Garet-Font/Garet Bold.ttf') format('truetype');
+        }
   
  }
- 
+ .avatar {
+    width: 150px;       /* Ukuran avatar kecil */
+    height: 150px;      /* Menjaga agar gambar tetap berbentuk bulat */
+    object-fit: cover; /* Menjaga agar gambar tidak terdistorsi */
+}
 
  #bg-video {
     min-width: 100%;
@@ -123,6 +140,94 @@ body , #bkl, #bkl2, #bkl3, #bkl4, #bkl5, #bkl6 {
             <!-- Header End -->
         </div>
         <!-- Navbar & Hero End -->
+
+
+        <div class="container-fluid about justify-content-end " style=" background-color: #DDD8D3; min-height: 120vh;" >
+            <div class="justify-content-end" >
+                <div class="row  justify-content-center " >
+                    <div class="col-lg-5 mb-5"  style="margin-top: 100px;">
+                        <div>
+                            <h1 class="display-5 display-sm-5 display-md-2 " style="color: #5f5c5c;">
+                                Meet the bakoel ide
+                                <span class="d-inline d-md-block">team that turns ideas</span>
+                                <span class="d-inline d-md-block">into real results.</span>
+                            </h1>
+                        </div>
+                        <h1  class="text-start mt-4"  style="font-size: 35px; font-family: 'Garet-Bold';">  </h1>
+                    </div>
+
+                    <div class="col-lg-5 d-flex flex-row-reverse mb-5"  style="margin-top: 100px;">
+                        <div class="d-flex flex-column text-center ms-4" >
+                            <img src="/img/Andy Taufiq.jpg" class="img-thumbnail avatar rounded-circle" alt="..."> 
+                            <p style="font-family: 'Garet-Bold';" class=" fs-5 text-dark fw-bolder mt-2">Andy Taufiq
+                               
+                                <span style="font-family: 'Garet';"  class="fw-normal fs-6 d-inline d-md-block">Creative Director</span>
+                            </p>
+                            
+                        </div>
+
+                        <div class="d-flex flex-column text-center ms-4" >
+                            <img src="/img/Antonius Ardi.jpg" class="img-thumbnail avatar rounded-circle" alt="..."> 
+                            <p style="font-family: 'Garet-Bold';" class=" fs-5 text-dark fw-bolder mt-2">Antonius Ardi 
+                               
+                                <span style="font-family: 'Garet';"  class="fw-normal fs-6 d-inline d-md-block">Account Director</span>
+                            </p>
+                            
+                        </div>
+
+                        <div class="d-flex flex-column text-center " >
+                            <img src="/img/Raymond Wolff.jpg" class="img-thumbnail avatar rounded-circle" alt="..."> 
+                            <p style="font-family: 'Garet-Bold';" class=" fs-5 text-dark fw-bolder mt-2">Raymond Wolff 
+                               
+                                <span style="font-family: 'Garet';"  class="fw-normal fs-6  d-inline d-md-block">Founder</span>
+                            </p>
+                            
+                        </div>
+                     
+                    </div>
+
+                    <div class="col-lg-5 d-flex flex-row mb-5 align-self-end mt-5">
+                        <div class="d-flex flex-column text-center ms-4" >
+                            <img src="/img/Ruben Ray.jpg" class="img-thumbnail avatar rounded-circle" alt="..."> 
+                            <p style="font-family: 'Garet-Bold';" class=" fs-5 text-dark fw-bolder mt-2">Ruben Ray
+                               
+                                <span style="font-family: 'Garet';"  class="fw-normal fs-6 d-inline d-md-block">Brand Director</span>
+                            </p>
+                            
+                        </div>
+
+                        <div class="d-flex flex-column text-center ms-4" >
+                            <img src="/img/Nadya Bunga.jpg" class="img-thumbnail avatar rounded-circle" alt="..."> 
+                            <p style="font-family: 'Garet-Bold';" class=" fs-5 text-dark fw-bolder mt-2">Nadya Bunga  
+                            
+                                <span style="font-family: 'Garet';"  class="fw-normal fs-6 d-inline d-md-block">Video Editor</span>
+                            </p>
+                            
+                        </div>
+
+                        <div class="d-flex flex-column text-center ms-4" >
+                            <img src="/img/Dwi Nauli.jpg" class="img-thumbnail avatar rounded-circle" alt="..."> 
+                            <p style="font-family: 'Garet-Bold';" class=" fs-5 text-dark fw-bolder mt-2">Dwi Nauli
+                               
+                                <span style="font-family: 'Garet';"  class="fw-normal fs-6 d-inline d-md-block">Brand Director</span>
+                            </p>
+                            
+                        </div>
+                     
+                    </div>
+
+                     <div class="col-lg-5">
+                        <h1 class="text-start mt-4"  style="font-size: 35px; font-family: 'Garet-Bold';">Our team consists of skilled experts with extensive experience in marketing and communication. </h1>
+                        <br>
+                        <h1  class="text-start mt-4"  style="font-size: 35px; font-family: 'Garet-Bold';">We understand the best strategies to tackle challenges and deliver impactful results for your brand.</h1>
+                    </div>
+                    
+                   
+                </div>
+            </div>
+
+      
+        </div>
 
 
         <!-- Abvout Start -->

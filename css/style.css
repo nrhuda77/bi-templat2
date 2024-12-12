@@ -419,7 +419,16 @@
     transition: 0.5s;
 }
 
-
+.bg-breadcrumb {
+    position: relative;
+    overflow: hidden;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/asian-businesswoman-working-remotely-from-home-virtual-video-conference-meeting-webinar-with-colleagues-business-people-social-distancing-home-office-concept.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 140px 0 60px 0;
+    transition: 0.5s;
+}
 
 @media (min-width: 992px) {
     .bg-breadcrumb {

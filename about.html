@@ -80,10 +80,14 @@ body , #bkl, #bkl2, #bkl3, #bkl4, #bkl5, #bkl6 {
   
  }
  .avatar {
-    width: 150px;       /* Ukuran avatar kecil */
-    height: 150px;      /* Menjaga agar gambar tetap berbentuk bulat */
-    object-fit: cover; /* Menjaga agar gambar tidak terdistorsi */
+    width: 50vw;          /* Menentukan lebar avatar 50% dari lebar layar */
+    height: auto;         /* Menjaga rasio aspek agar gambar tidak terdistorsi */
+    max-width: 150px;     /* Membatasi ukuran maksimal avatar agar tidak melebihi 150px */
+    max-height: 150px;    /* Membatasi ukuran maksimal avatar agar tidak melebihi 150px */
+    border-radius: 50%;   /* Membuat gambar berbentuk bulat */
+    object-fit: cover;    /* Menjaga agar gambar tidak terdistorsi */
 }
+
 
  #bg-video {
     min-width: 100%;
@@ -156,93 +160,78 @@ body , #bkl, #bkl2, #bkl3, #bkl4, #bkl5, #bkl6 {
         <!-- Navbar & Hero End -->
 
 
-        <div class="container-fluid about justify-content-end " style=" background-color: #DDD8D3; min-height: 120vh;" >
-            <div class="justify-content-end" >
-                <div class="row  justify-content-center " >
-                    <div class="col-lg-5 mb-5"  style="margin-top: 100px;">
-                        <div>
-                            <h1 class="display-5 display-sm-5 display-md-2 " style="color: #5f5c5c;">
-                                Meet the bakoel ide
-                                <span class="d-inline d-md-block">team that turns ideas</span>
-                                <span class="d-inline d-md-block">into real results.</span>
-                            </h1>
-                        </div>
-                        <h1  class="text-start mt-4"  style="font-size: 35px; font-family: 'Garet-Bold';">  </h1>
+        <div class="container-fluid about justify-content-end" style="background-color: #DDD8D3; min-height: 100vh;">
+            <div class="row justify-content-center">
+                <div class="col-lg-5 mb-5" style="margin-top: 50px;">
+                    <h1 class="display-4 display-sm-5 display-md-2" style="color: #5f5c5c;">
+                        Meet the Bakoel Ide
+                        <span class="d-inline d-md-block">Team that turns ideas</span>
+                        <span class="d-inline d-md-block">into real results.</span>
+                    </h1>
+                </div>
+
+                <div class="col-lg-5 d-flex flex-wrap justify-content-center mb-5" style="margin-top: 50px;">
+                    <!-- Member 1 -->
+                    <div class="d-flex flex-column text-center mx-3 mb-4">
+                        <img src="/img/Andy Taufiq.jpg" class="img-thumbnail avatar rounded-circle" alt="Andy Taufiq">
+                        <p style="font-family: 'Garet-Bold';" class="fs-5 text-dark fw-bolder mt-2">Andy Taufiq
+                            <span style="font-family: 'Garet';" class="fw-normal fs-6 d-inline d-md-block">Creative Director</span>
+                        </p>
                     </div>
-
-                    <div class="col-lg-5 d-flex flex-row-reverse mb-5"  style="margin-top: 100px;">
-                        <div class="d-flex flex-column text-center ms-4" >
-                            <img src="/img/Andy Taufiq.jpg" class="img-thumbnail avatar rounded-circle" alt="..."> 
-                            <p style="font-family: 'Garet-Bold';" class=" fs-5 text-dark fw-bolder mt-2">Andy Taufiq
-                               
-                                <span style="font-family: 'Garet';"  class="fw-normal fs-6 d-inline d-md-block">Creative Director</span>
-                            </p>
-                            
-                        </div>
-
-                        <div class="d-flex flex-column text-center ms-4" >
-                            <img src="/img/Antonius Ardi.jpg" class="img-thumbnail avatar rounded-circle" alt="..."> 
-                            <p style="font-family: 'Garet-Bold';" class=" fs-5 text-dark fw-bolder mt-2">Antonius Ardi 
-                               
-                                <span style="font-family: 'Garet';"  class="fw-normal fs-6 d-inline d-md-block">Account Director</span>
-                            </p>
-                            
-                        </div>
-
-                        <div class="d-flex flex-column text-center " >
-                            <img src="/img/Raymond Wolff.jpg" class="img-thumbnail avatar rounded-circle" alt="..."> 
-                            <p style="font-family: 'Garet-Bold';" class=" fs-5 text-dark fw-bolder mt-2">Raymond Wolff 
-                               
-                                <span style="font-family: 'Garet';"  class="fw-normal fs-6  d-inline d-md-block">Founder</span>
-                            </p>
-                            
-                        </div>
-                     
+        
+                    <!-- Member 2 -->
+                    <div class="d-flex flex-column text-center mx-3 mb-4">
+                        <img src="/img/Antonius Ardi.jpg" class="img-thumbnail avatar rounded-circle" alt="Antonius Ardi">
+                        <p style="font-family: 'Garet-Bold';" class="fs-5 text-dark fw-bolder mt-2">Antonius Ardi
+                            <span style="font-family: 'Garet';" class="fw-normal fs-6 d-inline d-md-block">Account Director</span>
+                        </p>
                     </div>
-
-                    <div class="col-lg-5 d-flex flex-row mb-5 align-self-end mt-5">
-                        <div class="d-flex flex-column text-center ms-4" >
-                            <img src="/img/Ruben Ray.jpg" class="img-thumbnail avatar rounded-circle" alt="..."> 
-                            <p style="font-family: 'Garet-Bold';" class=" fs-5 text-dark fw-bolder mt-2">Ruben Ray
-                               
-                                <span style="font-family: 'Garet';"  class="fw-normal fs-6 d-inline d-md-block">Graphic Designer</span>
-                            </p>
-                            
-                        </div>
-
-                        <div class="d-flex flex-column text-center ms-4" >
-                            <img src="/img/Nadya Bunga.jpg" class="img-thumbnail avatar rounded-circle" alt="..."> 
-                            <p style="font-family: 'Garet-Bold';" class=" fs-5 text-dark fw-bolder mt-2">Nadya Bunga  
-                            
-                                <span style="font-family: 'Garet';"  class="fw-normal fs-6 d-inline d-md-block">Video Editor</span>
-                            </p>
-                            
-                        </div>
-
-                        <div class="d-flex flex-column text-center ms-4" >
-                            <img src="/img/Dwi Nauli.jpg" class="img-thumbnail avatar rounded-circle" alt="..."> 
-                            <p style="font-family: 'Garet-Bold';" class=" fs-5 text-dark fw-bolder mt-2">Dwi Nauli
-                               
-                                <span style="font-family: 'Garet';"  class="fw-normal fs-6 d-inline d-md-block">Social Media Specialist</span>
-                            </p>
-                            
-                        </div>
-                     
+        
+                    <!-- Member 3 -->
+                    <div class="d-flex flex-column text-center mx-3 mb-4">
+                        <img src="/img/Raymond Wolff.jpg" class="img-thumbnail avatar rounded-circle" alt="Raymond Wolff">
+                        <p style="font-family: 'Garet-Bold';" class="fs-5 text-dark fw-bolder mt-2">Raymond Wolff
+                            <span style="font-family: 'Garet';" class="fw-normal fs-6 d-inline d-md-block">Founder</span>
+                        </p>
                     </div>
-
-                     <div class="col-lg-5">
-                        <h1 class="text-start mt-4"  style="font-size: 35px; font-family: 'Garet-Bold';">Our team consists of skilled experts with extensive experience in marketing and communication. </h1>
-                        <br>
-                        <h1  class="text-start mt-4"  style="font-size: 35px; font-family: 'Garet-Bold';">We understand the best strategies to tackle challenges and deliver impactful results for your brand.</h1>
+        
+                </div>
+        
+                <div class="col-lg-5 d-flex flex-wrap justify-content-center mb-5" style="margin-top: 50px;">
+               
+        
+                    <!-- Member 4 -->
+                    <div class="d-flex flex-column text-center mx-3 mb-4">
+                        <img src="/img/Ruben Ray.jpg" class="img-thumbnail avatar rounded-circle" alt="Ruben Ray">
+                        <p style="font-family: 'Garet-Bold';" class="fs-5 text-dark fw-bolder mt-2">Ruben Ray
+                            <span style="font-family: 'Garet';" class="fw-normal fs-6 d-inline d-md-block">Graphic Designer</span>
+                        </p>
                     </div>
-                    
-                   
+        
+                    <!-- Member 5 -->
+                    <div class="d-flex flex-column text-center mx-3 mb-4">
+                        <img src="/img/Nadya Bunga.jpg" class="img-thumbnail avatar rounded-circle" alt="Nadya Bunga">
+                        <p style="font-family: 'Garet-Bold';" class="fs-5 text-dark fw-bolder mt-2">Nadya Bunga
+                            <span style="font-family: 'Garet';" class="fw-normal fs-6 d-inline d-md-block">Video Editor</span>
+                        </p>
+                    </div>
+        
+                    <!-- Member 6 -->
+                    <div class="d-flex flex-column text-center mx-3 mb-4">
+                        <img src="/img/Dwi Nauli.jpg" class="img-thumbnail avatar rounded-circle" alt="Dwi Nauli">
+                        <p style="font-family: 'Garet-Bold';" class="fs-5 text-dark fw-bolder mt-2">Dwi Nauli
+                            <span style="font-family: 'Garet';" class="fw-normal fs-6 d-inline d-md-block">Social Media Specialist</span>
+                        </p>
+                    </div>
+                </div>
+        
+                <div class="col-lg-5 mt-4">
+                    <h1 class="text-start" style="font-size: 32px; font-family: 'Garet';">Our team consists of skilled experts with extensive experience in marketing and communication.</h1>
+                    <h1 class="text-start mt-4" style="font-size: 32px; font-family: 'Garet';">We understand the best strategies to tackle challenges and deliver impactful results for your brand.</h1>
                 </div>
             </div>
-
-      
         </div>
-
+        
 
         <!-- Abvout Start -->
         <div class="container-fluid about " style="margin-bottom: 70px !important; margin-top: 60px;">
@@ -489,7 +478,7 @@ body , #bkl, #bkl2, #bkl3, #bkl4, #bkl5, #bkl6 {
                     <div class="container">
                         <div class="row">
                             <div class="col-xl-12 animated fadeInLeft">
-                                <div class="text-end">
+                                <div class="text-start">
                                     <div class="display-6 display-sm-3 display-md-2 me-5" style="color: #5c5b5a;">
                                         Contact us:
                                     </div>
@@ -509,8 +498,8 @@ body , #bkl, #bkl2, #bkl3, #bkl4, #bkl5, #bkl6 {
 
                               
 
-                                <div class="text-end">                  
-                                    <div class="d-flex justify-content-end">                                  
+                                <div class="text-start">                  
+                                    <div class="d-flex justify-content-start">                                  
                                     <div class="fs-4 mb-4 d-flex align-items-start flex-column" style="font-family: 'Clear-Sans';">
                                         <span style="font-family: 'Clear-Sans';" class=" mb-4 text-dark"><i class="me-1 fa-regular fa-envelope"></i> admin@bakoelide.com</span>
                                         <span class="font-family: 'Clear-Sans'; text-dark"><i class=" mb-4 fa-brands fa-linkedin"></i> bakoelide</span>
